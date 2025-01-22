@@ -4,6 +4,7 @@ public class input {
         Scanner obj =new Scanner(System.in);
         int a=obj.nextInt();
         System.out.println("value of a:"+a);
+        
     }
     
 }
