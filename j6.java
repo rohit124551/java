@@ -13,5 +13,9 @@ class A{
         a.a=10;
         a.b=20;
         a.display();
+        // A b= new A(1,2);
+        // b.display();
+        //     A c=new A(1);
+        //     c.display();
     }
 }
