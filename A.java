@@ -21,5 +21,7 @@ class A{
         public static void main(String[] args) {
             A a=new A();
             aa("Hiiii",1,2,3,4,5);
+            
         }
     }
+    
