@@ -10,6 +10,7 @@ import java.io.FileWriter;
         try{
             FileWriter fw=new FileWriter("z2.txt");
             fw.write(a);
+            System.out.println("\n");
             fw.write(b);
             fw.close();
         }
@@ -20,6 +21,11 @@ import java.io.FileWriter;
         try{
             FileReader fr=new FileReader("z2.txt");
             int d;
+            while ((d=fr.read())!=1){
+                System.out.println((char)d);
+                fr.close();
+            
+            }
         }
         catch(Exception e){
             System.out.println("Exception Caught");
